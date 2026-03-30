@@ -1,7 +1,7 @@
-L
+
 Task 1
 
-Last login: Mon Mar 30 18:28:52 on ttys000
+```Last login: Mon Mar 30 18:28:52 on ttys000
 (base) veronikabelikova@MacBook-Pro-Veronika ~ % cd /
 (base) veronikabelikova@MacBook-Pro-Veronika / % ls
 Applications	Volumes		etc		sbin
@@ -62,7 +62,7 @@ ntp.conf
 
 Task 2
 
-Last login: Mon Mar 30 18:29:14 on ttys000
+```Last login: Mon Mar 30 18:29:14 on ttys000
 (base) veronikabelikova@MacBook-Pro-Veronika ~ % pwd
 /Users/veronikabelikova
 (base) veronikabelikova@MacBook-Pro-Veronika ~ % ls
@@ -97,7 +97,7 @@ file_renamed.txt	symlink.txt
 
 Task 3
 
-Last login: Mon Mar 30 18:36:43 on ttys000
+```Last login: Mon Mar 30 18:36:43 on ttys000
 (base) veronikabelikova@MacBook-Pro-Veronika ~ % pwd
 /Users/veronikabelikova
 (base) veronikabelikova@MacBook-Pro-Veronika ~ % ls
@@ -119,6 +119,7 @@ Desktop		IdeaProjects	Music		Public
 (base) veronikabelikova@MacBook-Pro-Veronika practical2 % 
 
 Task 4
+```bash
 student@ubuntu:~$ sudo useradd -m -s /bin/bash trainee
 student@ubuntu:~$ sudo usermod -aG sudo trainee
 student@ubuntu:~$ cat /etc/passwd | grep trainee
